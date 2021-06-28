@@ -1,20 +1,23 @@
 {
-    "short_name": "Budget Tracker",
-    "name": "Budget Tracker",
-    "icons": [
-      {
-        "src": "budget-tracker/public/icons/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "budget-tracker/public/icons/icon-512x512.png",
-        "sizes": "96x96",
-        "type": "image/png"
-      }
-    ],
-    "start_url": "/",
-    "background_color": "#ffffff",
-    "display": "standalone",
-    "theme_color": "#317EFB"
-  }
+  "icons": [
+    {
+      "src": "budget-tracker/public/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "budget-tracker/public/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Budget Tracker", 
+  "short_name": "Budget Tracker",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "An application that keeps tracks of a user's budget online and offline",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff"
+}
